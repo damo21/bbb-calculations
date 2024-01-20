@@ -39,9 +39,9 @@ function App() {
         </span>
         <div className="flex flex-row justify-center align-middle p-2 gap-2">
           <span>Pecentage: </span>
-          <select className="bg-cream" onChange={(e) => setPerecentage(e.target.value)}>
+          <select className="bg-cream" onChange={(e) => setPerecentage(e.target.value)}  defaultValue={90}>
             <option value={80}> 80% </option>
-            <option value={90} selected> 90% </option>
+            <option value={90}> 90% </option>
             </select>
         </div>
         <div className="flex justify-center items-center w-full">
