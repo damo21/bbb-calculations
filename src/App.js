@@ -41,6 +41,7 @@ function App() {
           <span>Pecentage: </span>
           <select className="bg-cream" onChange={(e) => setPerecentage(e.target.value)}  defaultValue={90}>
             <option value={80}> 80% </option>
+            <option value={85}> 85% </option>
             <option value={90}> 90% </option>
             </select>
         </div>
